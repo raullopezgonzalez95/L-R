@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<title>08/09/2019</title>
+
+	<link href="examples/fixed-positioning.css" rel="stylesheet" type="text/css" />
+	<link href="examples/main.css" rel="stylesheet" type="text/css" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.min.js"></script>
+		  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.css">
+</head>
+
+<body>
+		
+	<div id="bg1" data-0="background-position:0px 0px;" data-end="background-position:-500px -10000px;"></div>
+	<div id="bg2" data-0="background-position:0px 0px;" data-end="background-position:-500px -8000px;"></div>
+	<div id="bg3" data-0="background-position:0px 0px;" data-end="background-position:-500px -6000px;"></div>
+
+	<div id="progress" data-0="width:0%;background:hsl(200, 100%, 50%);" data-end="width:100%;background:hsl(920, 100%, 50%);"></div>
+
+	<div style="background-color: rgb(80, 7, 68); color: white;" id="intro" data-0="opacity:1;top:3%;transform:rotate(0deg);transform-origin:0 0;" data-500="opacity:0;top:-10%;transform:rotate(-90deg);">
+		<h1>Lucero y Raúl</h1>
+
+		<h2>08/Septiembre/2019</h2>
+		<iframe width="100%" height="60" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/41130971&color=%23848484&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+		<p>Amor, hoy cumplimos medio año de ser novios y en serio me haz hecho tan feliz</p>
+		<img src="img/1.gif" alt="" style="width: 400px; height: 500px;" >
+
+	</div>
+
+	<div id="transform" data-500="transform:scale(0) rotate(0deg);" data-1000="transform:scale(1) rotate(1440deg);opacity:1;" data-1600="" data-1700="transform:scale(5) rotate(3240deg);opacity:0;">
+		<h3>Todos los momentos que he vivido a tu lado han sido tan hermosos</h3>
+		<img width="200px" height="200px" src="img/2.jpg" alt="">
+		<img width="200px" height="200px" src="img/3.jpg" alt="">
+		<img width="200px" height="200px" src="img/4.jpg" alt="">
+		<img width="200px" height="200px" src="img/5.jpg" alt="">
+		<h4>Espero vivir contigo mas momentos hermosos </h4>
+		
+	</div>
+
+	<div id="properties" data-1700="top:100%;" data-2200="top:0%;" data-3000="display:block;" data-3700="top:-100%;display:none;">
+		<h1>En verdad estoy muy seguro de que estés en mi vida </h1>
+		<h2>Gracias por todo este tiempo a mi lado</h2>
+		<h3>Espero seguir haciéndote feliz mi amor</h3>
+		<img width="200px" height="270px" src="img/7.jpg" alt="">
+		<img width="200px" height="270px" src="img/8.jpg" alt="">
+		<img width="200px" height="270px" src="img/9.jpg" alt="">
+		<img width="200px" height="270px" src="img/10.jpg" alt="">
+
+		<img width="820px" height="450px" src="img/11.jpg" alt="">
+	</div>
+
+	<div id="easing_wrapper" data-0="display:none;" data-3900="display:block;" data-4900="background:rgba(0, 0, 0, 0);color[swing]:rgb(0,0,0);" data-5900="background:rgba(0,0,0,1);color:rgb(255,255,255);" data-10000="top:0%;" data-12000="top:-100%;">
+		<div id="easing" data-3900="left:100%" data-4600="left:25%;">
+			<h2>Lucero</h2>
+			<p>Gracias</p>
+			<p>por ser tan linda conmigo, <span data-3900="" data-4900="color[swing]:rgb(0,0,0);" data-5900="color:rgb(255,255,0);">haz cambiado mi vida</span> y espero hacerte sentir bien a mi lado</p>
+			<p data-5900="opacity:0;font-size:100%;" data-6500="opacity:1;font-size:150%;">
+				Mi amor hermoso te amo con todas mis fuerzas y nunca te voy a lastimar de ninguna manera, en verdad eres mi todo, quiero estar siempre a tu lado 
+			</p>
+			<img height="200px" src="img/13.jpg" alt="">
+		</div>
+
+		<div style="background-color: rgb(19, 228, 47);" class="drop" data-6500="left:15%;bottom:100%;" data-9500="bottom:0%;">Gatito</div>
+		<div style="background-color: rgb(141, 51, 23);" class="drop" data-6500="left:25%;bottom[quadratic]:100%;" data-9500="bottom:0%;">Gatita</div>
+		<div style="background-color: rgb(36, 25, 99);" class="drop" data-6500="left:35%;bottom[cubic]:100%;" data-9500="bottom:0%;">LyR</div>
+		<div style="background-color: rgb(136, 22, 102);" class="drop" data-6500="left:45%;bottom[swing]:100%;" data-9500="bottom:0%;">Nosotros</div>
+		<div style="background-color: rgb(19, 221, 228);" class="drop" data-6500="left:55%;bottom[WTF]:100%;" data-9500="bottom:0%;">Amor</div>
+		<div style="background-color: rgb(255, 0, 221);" class="drop" data-6500="left:65%;bottom[inverted]:100%;" data-9500="bottom:0%;">08/03/19</div>
+		<div style="background-color: rgb(193, 19, 228);" class="drop" data-6500="left:75%;bottom[bounce]:100%;" data-9500="bottom:0%;">TE AMO</div>
+	</div>
+
+	<div id="download" data-10000="top[cubic]:100%;border-radius[cubic]:0em;background:rgb(0,50,100);border-width:0px;" data-12000="top:10%;border-radius:2em;background:rgb(190,230,255);border-width:10px;">
+				
+		<ul class="bxslider">
+					<li><img src="img/Slider1.jpg" /></li>
+					<li><img src="img/Slider2.JPG" /></li>
+					<li><img src="img/slider3.JPG" /></li>
+					<li><img src="img/slider4.JPG" /></li>
+					<li><img src="img/slider5.JPG" /></li>
+					<li><img src="img/slider6.JPG" /></li>
+					<li><img src="img/slider7.JPG" /></li>
+					<li><img src="img/slider8.JPG" /></li>
+					<li><img src="img/sliderfinal.jpg" /></li>
+				  </ul>
+				  <script>
+				 	$(document).ready(function(){
+  $('.bxslider').bxSlider();
+  setInterval(function(){
+    $('.bx-next').trigger('click');
+  }, 10000);
+});
+				  </script>
+				  <br><br><br>
+	</div>
+
+	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
+
+	<script type="text/javascript" src="dist/skrollr.min.js"></script>
+
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="../skrollr-ie/dist/skrollr.ie.min.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">
+	var s = skrollr.init({
+		edgeStrategy: 'set',
+		easing: {
+			WTF: Math.random,
+			inverted: function(p) {
+				return 1-p;
+			}
+		}
+	});
+	</script>
+</body>
+
+</html>
